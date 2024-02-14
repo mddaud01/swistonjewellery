@@ -28,15 +28,38 @@ body {
 }
 
 
-.slick-next {
-    right: 17px !important;
+.herosection .slick-prev {
+    right: 17px ;
+    top: 50% ;
 }
-.slick-prev {
-  left: 17px !important;
-  z-index: 100 !important;
+.herosection .slick-next{
+  right: 17px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.herosection .slick-prev{
+  left: 17px ;
+  z-index: 10;
 }
 
 .bg-black .slick-slider {
-  height: 452px !important;
+  height: 452px ;
 }
+.latestProductSlider .slick-slide{
+    margin: 10px;
+}
+.latestProductSlider .slick-next {
+  right: -20px;
+  top: 34%;
+ 
+}
+.latestProductSlider .slick-prev {
+  left: -20px;
+  z-index: 10;
+  top: 34%;
+}
+.latestProductSlider .slick-list{
+  height: 450px;
+}
+
 

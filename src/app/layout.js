@@ -3,7 +3,10 @@ import "./globals.css";
 import UperNavigation from "./componants/commmon/navigation/UperNavigation";
 import Lowernavigation from "./componants/commmon/navigation/Lowernavigation";
 
-const barlow = Barlow({ subsets: ["latin"] ,weight:['100','200','300','400','500','600','700','800','900']});
+const barlow = Barlow({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -13,11 +16,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={barlow.className} >
-      <UperNavigation />
-      <Lowernavigation />
+      <body className={barlow.className}>
+        <div>
+          {" "}
+          <UperNavigation />
+          <Lowernavigation />
+        </div>
         {children}
-        </body>
+      </body>
     </html>
   );
 }

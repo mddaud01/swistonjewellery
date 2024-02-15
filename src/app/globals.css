@@ -61,5 +61,8 @@ body {
 .latestProductSlider .slick-list{
   height: 450px;
 }
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
 

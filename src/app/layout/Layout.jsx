@@ -1,11 +1,11 @@
 import React from "react";
-import UperNavigation from "../componants/commmon/navigation/UperNavigation";
-import Lowernavigation from "../componants/commmon/navigation/Lowernavigation";
-import Herosection from "../componants/herosection/Herosection";
 import Securityconcern from "../componants/Securityconcern";
 import Categoryyoulovemain from "../componants/categoryYoulove/categoryyoulovemain";
 import LatestProduct from "../componants/categoryYoulove/latestproduct/LatestProduct";
 import Addvertisment from "../componants/addvertismentsection/Addvertisment";
+import Notification from "../componants/notificationbannar/Notification";
+import PosterImage from "../componants/posterimage/PosterImage";
+import Herosection from "../componants/herosection/Herosection";
 
 const Layout = () => {
   return (
@@ -22,8 +22,14 @@ const Layout = () => {
       <div className=" w-[100%] bg-[#3A3A3A]">
         <LatestProduct/>
       </div>
-      <div className="  ">
+      <div className="">
         <Addvertisment/>
+      </div>
+      <div>
+        <Notification/>
+      </div>
+      <div>
+        <PosterImage/>
       </div>
     </div>
   );

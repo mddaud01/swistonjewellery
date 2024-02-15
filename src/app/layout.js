@@ -2,6 +2,7 @@ import { Barlow } from "next/font/google";
 import "./globals.css";
 import UperNavigation from "./componants/commmon/navigation/UperNavigation";
 import Lowernavigation from "./componants/commmon/navigation/Lowernavigation";
+import Footer from "./componants/commmon/footer/Footer";
 
 const barlow = Barlow({
   subsets: ["latin"],
@@ -23,6 +24,9 @@ export default function RootLayout({ children }) {
           <Lowernavigation />
         </div>
         {children}
+        <div>
+          <Footer/>
+        </div>
       </body>
     </html>
   );

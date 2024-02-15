@@ -1,11 +1,7 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
-const breadCrumbItems = [
-  { id: 1, title: "Home" },
-  { id: 2, title: "Jewellary" },
-  { id: 3, title: "Rings" },
-];
-function CategoryBreadcrumb() {
+
+function CategoryBreadcrumb({ breadCrumbItems }) {
   return (
     <div className="flex h-[24px] pt-[24px] justify-center">
       {breadCrumbItems.map((item) => (

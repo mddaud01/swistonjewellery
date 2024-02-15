@@ -17,8 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={barlow.className}>
-        <UperNavigation />
-        <Lowernavigation />
+        <div>
+          {" "}
+          <UperNavigation />
+          <Lowernavigation />
+        </div>
         {children}
       </body>
     </html>

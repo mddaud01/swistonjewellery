@@ -6,7 +6,7 @@ const SingleCart = ({ image, heading, para, currentrate, prevRate }) => {
   return (
     <div>
       <div>
-        <Image src={image} className="w-[375px] h-[294px] pb-[15px]" />
+        <Image src={image} className="w-[307px] h-[294px] pb-[15px]" />
       </div>
       <div className="w-[219px] h-[86px] mx-auto">
         <h3 className=" font-[500] text-[18px] leading-[19.8px] text-[#757575] text-center mb-[6px]">{heading}</h3>

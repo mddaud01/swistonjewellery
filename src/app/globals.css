@@ -14,6 +14,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+  
 }
 
 body {
@@ -42,9 +43,9 @@ body {
   z-index: 10;
 }
 
-.bg-black .slick-slider {
+/* .bg-black .slick-slider {
   height: 452px ;
-}
+} */
 .latestProductSlider .slick-slide{
     margin: 10px;
 }
@@ -60,9 +61,11 @@ body {
 }
 .latestProductSlider .slick-list{
   height: 450px;
-}
+} 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
-
+.custom_cuntainer{
+  max-width: 1360px;
+}
 

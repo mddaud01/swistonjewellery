@@ -10,7 +10,7 @@ import CategoryImage from './CategoryImage'
 
 const Categoryyoulovemain = () => {
   return (
-    <div  className='w-[1284px] mx-auto text-[#CBB477]'>
+    <div  className='container-xl mx-auto text-[#CBB477]'>
         <h1 className=' font-[500]  leading-[33px] text-[30px]  text-center pt-[85px]'>
         Choose Category you love
         </h1>

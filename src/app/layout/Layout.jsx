@@ -13,7 +13,7 @@ const Layout = () => {
       <div>
         <Herosection />
       </div>
-      <div className="h-[115px] bg-[#CBB477]  items-center">
+      <div className="  bg-[#CBB477]  items-center">
         <Securityconcern />
       </div>
       <div className="bg-[#030303] text-[#CBB477] ">

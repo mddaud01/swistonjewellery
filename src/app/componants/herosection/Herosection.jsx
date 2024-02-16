@@ -12,20 +12,20 @@ const Herosection = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
   };
   
   return (
-    <div className="bg-black h-[452px] herosection">
+    <div className="bg-black herosection">
      <Slider {...settings}>
-        <div className="">
-        <Image src={firsthero} alt="Description of the image" />
+        <div className="h-full">
+        <Image className="w-full h-full" src={firsthero} alt="Description of the image" />
         </div>
         <div>
-        <Image src={firsthero} alt="Description of the image" />
+        <Image className="w-full h-full" src={firsthero} alt="Description of the image" />
         </div>
         <div>
-        <Image src={firsthero} alt="Description of the image" />
+        <Image className="w-full h-full" src={firsthero} alt="Description of the image" />
         </div>
       </Slider>
     </div>

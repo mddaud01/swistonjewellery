@@ -22,6 +22,7 @@ const Securityconcern = () => {
    <CustomeRenderSecurity image={lock} heading={'Security Payment'} content={'Do secure payment'}/>
    </div>
     </div>
+    
   );
 };
 
